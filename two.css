@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.maindiv{
+    background-color: black;
+}
+.linkdiv {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+select {
+    margin-right: 30px;
+    background-color: rgba(32, 32, 32, 0.397);
+    color: aliceblue;
+    text-align: center;
+}
+
+.signinbutton {
+    margin-right: 100px;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+.logo {
+    height: 40px;
+    margin-left: 150px;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://cdn.playbackonline.ca/wp/wp-content/uploads/2020/05/Screen-Shot-2020-05-04-at-1.41.10-PM.png");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.639);
+    width: 100%;
+    height: 100vh;
+}
+
+.maincontent {
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.kid {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    border-bottom: 2px solid rgb(35, 34, 34);
+    border-top: 2px solid rgb(35, 34, 34);
+    gap: 30px;
+}
+
+.imagekid {
+    height: 350px
+}
+
+.h1div {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+p {
+    font-size: larger;
+}
+
+#lang {
+    height: 30px;
+    width: 80px;
+
+}
+
+.mainh {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.mainp {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-size: medium;
+
+}
+
+#input {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    color: white;
+
+}
+
+#input::placeholder {
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.accordion{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    border-radius: none;
+}
+#accordionExample{
+    border-radius:30px;
+}
+
+.accordion-button{
+    border-radius: none;
+    background-color: rgb(84, 79, 79);
+    color: aliceblue;
+    border-radius: none;
+    height: 50px;
+    font-size: 15px;
+   
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(84, 79, 79);
+    color: white;
+}
+.accordion-body{
+    background-color: rgb(84, 79, 79);
+    color: white;
+}
+.acc{
+    height: 143vh;
+    width:100%;
+    border-bottom: 2px solid rgb(57, 57, 57);
+    
+}
+.acc h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.acc h3{
+    color: white;
+    font-size: 14px; 
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 260px;
+    border-bottom: 2px solid rgb(35, 34, 34);
+    gap: 30px;
+}
+.footer p{
+    font-size: 13px;  
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.subfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 200px;
+    
+}
+.subfooter ul,a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;  
+    list-style: none;
+    color: white;
+}
+.lastdiv{
+    margin-left: 100px;
+}
+.lastdiv p{
+    font-size :13px;
+    margin-left:0px;
+    margin-top:20px;
+
+}
